@@ -116,10 +116,26 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact__info {
+        justify-content: center;
+    }
+
+    .contact__form {
+        margin: 0 auto;
+    }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .contact__info {
+        grid-template-columns: 1fr;
+    }
 
-/* For small devices */
-@media screen and (max-width: 350px) {
+    .contact__form {
+        width: 100%;
+    }
 }
