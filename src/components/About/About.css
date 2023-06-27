@@ -71,6 +71,10 @@
         padding: 0 5rem;
         margin-bottom: 2rem;
     }
+
+    .about__data a {
+        margin-left: 210px;
+    }
 }
 
 /* For medium devices */
@@ -82,11 +86,19 @@
     .about__description {
         padding: 0;
     }
+
+    .about__data a {
+        margin-left: 25%;
+    }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
     .about__info {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about__data a{
+        margin-left: 65px;
     }
 }
