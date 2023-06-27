@@ -43,8 +43,15 @@
 }
 
 /* Active link */
+.active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
+}
+
+/* change bg header */
+.scroll-header {
+    background-color: var(--body-color);
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Breakpoints */
