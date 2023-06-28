@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css';
 import AboutImg from '../../assets/about.jpg';
 import Info from './Info';
 const About = () => {
+
+  const [showFullDescription, setShowFullDescription] = useState(false);
+  const toggleDescription = () => {
+    setShowFullDescription(!showFullDescription);
+  };
     return (
       <section className="about section" id="about">
         <h2 className="section__title">About Me</h2>
@@ -13,10 +18,14 @@ const About = () => {
           <div className="about__data">
             <Info />
             <p className="about__description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo, placeat!
+              {showFullDescription
+                ? "With a strong foundation in JavaScript, along with expertise in React.js, Node.js, and Express.js, I thrive in crafting seamless user experiences and building scalable solutions. Whether it's developing dynamic front-end interfaces or architecting efficient back-end systems, I combine my technical prowess with a keen eye for design to deliver engaging web solutions. My dedication to clean code, best practices, and continuous learning enables me to stay up-to-date with the latest technologies and industry trends.I love collaborating with teams to transform ideas into reality and solve complex problems. By leveraging my excellent problem-solving skills and attention to detail, I consistently deliver high-quality projects on time. Let's connect and discuss how I can contribute to your next web development venture. Click the button below to explore my work and get in touch!"
+                : "With a strong foundation in JavaScript, along with expertise in React.js, Node.js, and Express.js, I thrive in crafting seamless user experiences and building scalable solutions. Whether it's developing dynamic front-end interfaces or architecting efficient back-end systems, I combine my technical prowess with a keen eye for design to deliver engaging web solutions."}
+              {!showFullDescription && (
+                <p style={{fontWeight: 'bold', cursor: 'pointer'}} onClick={toggleDescription}>Read More...</p>
+              )}
             </p>
-            
+
             <a href="#contact" className="button button--flex">
               Say Hello
               <svg

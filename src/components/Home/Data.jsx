@@ -57,8 +57,9 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">MERN STACK Developer</h3>
         <p className="home__description">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
-          reprehenderit!
+          a passionate MERN stack developer with a knack for creating robust and
+          innovative web applications. I thrive in
+          crafting seamless user experiences and building scalable solutions.
         </p>
 
         <a download="" href={CV} className="button button--flex">
