@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from "../../assets/Al Mahmud Sarker Curriculam Vitae.pdf";
+import CV from "../../assets/Al Mahmud Sarker CV.pdf";
 const Data = () => {
     return (
       <div className="home__data">
