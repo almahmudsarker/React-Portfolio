@@ -89,7 +89,7 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className="section__title">Projects</h2>
+      <h2 className="section__title" id="projects">Projects</h2>
       <span className="section__subtitle">Explore my works</span>
       <div className="projects-container">
         {projects.map((project) => (
