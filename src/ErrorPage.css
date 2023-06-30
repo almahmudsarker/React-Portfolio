@@ -1,0 +1,39 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#error-page {
+    animation: fadeIn 0.5s ease-in;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#error-page h1 {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#error-page p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.err-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
