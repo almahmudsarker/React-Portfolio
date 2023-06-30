@@ -89,8 +89,17 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className="section__title" id="projects">Projects</h2>
-      <span className="section__subtitle">Explore my works</span>
+      <h2 className="section__title waviy" id="projects">
+        <span>P</span>
+        <span>r</span>
+        <span>o</span>
+        <span>j</span>
+        <span>e</span>
+        <span>c</span>
+        <span>t</span>
+        <span>s</span>
+      </h2>
+      <span className="section__subtitle flipX">Explore my works</span>
       <div className="projects-container">
         {projects.map((project) => (
           <div className="project-card" key={project.id}>
@@ -105,7 +114,9 @@ const Projects = () => {
             <div className="modal-content">
               <h2>{selectedProject.title}</h2>
               <p>{selectedProject.description}</p>
-              <ul> Features:
+              <ul>
+                {" "}
+                Features:
                 {selectedProject.features.map((feature, index) => (
                   <li key={index}>{feature}</li>
                 ))}

@@ -20,15 +20,24 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact Me</span>
+      <h2 className="section__title waviy">
+        <span>G</span>
+        <span>e</span>
+        <span>t i</span>
+        <span>n t</span>
+        <span>o</span>
+        <span>u</span>
+        <span>c</span>
+        <span>h</span>
+      </h2>
+      <span className="section__subtitle flipX">Contact Me</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
 
           <div className="contact__info">
-            <div className="contact__card">
+            <div className="contact__card animate-link">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
@@ -43,7 +52,7 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div className="contact__card animate-link">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+8801312363823</span>
@@ -55,7 +64,7 @@ const Contact = () => {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-            <div className="contact__card">
+            <div className="contact__card animate-link">
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">fb.user.almahmudsarker</span>

@@ -3,7 +3,7 @@ import CV from "../../assets/Al Mahmud Sarker CV.pdf";
 const Data = () => {
     return (
       <div className="home__data">
-        <h1 className="home__title">
+        <h1 className="home__title animate-charcter">
           Al Mahmud Sarker
           <svg
             width="36"
@@ -55,11 +55,13 @@ const Data = () => {
             ></path>
           </svg>
         </h1>
-        <h3 className="home__subtitle">MERN STACK Developer</h3>
-        <p className="home__description">
+        <h3 className="home__subtitle animate-charcter">
+          MERN STACK Developer
+        </h3>
+        <p className="home__description animate-charcter2">
           a passionate MERN stack developer with a knack for creating robust and
-          innovative web applications. I thrive in
-          crafting seamless user experiences and building scalable solutions.
+          innovative web applications. I thrive in crafting seamless user
+          experiences and building scalable solutions.
         </p>
 
         <a download="" href={CV} className="button button--flex">

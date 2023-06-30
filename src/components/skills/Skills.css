@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+.skills__content:hover {
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 10px rgba(186, 186, 186, 0.343);
+}
+
 .skills__content {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
