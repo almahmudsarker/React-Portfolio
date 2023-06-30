@@ -17,7 +17,7 @@ const Header = () => {
           {/* <a href="index.html" className="nav__logo">
             Mahmud
           </a> */}
-          <a href="index.html" className="content">
+          <a href="index.html" className="content nav__logo2">
             <h2>Mahmud</h2>
             <h2>Mahmud</h2>
           </a>

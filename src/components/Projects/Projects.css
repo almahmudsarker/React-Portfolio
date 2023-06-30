@@ -131,3 +131,33 @@
     cursor: pointer;
     border-radius: 5px;
 }
+
+/* Breakpoints */
+
+@media screen and (max-width: 768px) {
+        .modal-content p {
+            width: 320px;
+            text-align: center;
+        }
+    
+        .modal-content button {
+            top: 140px;
+            right: 0px;
+            font-size: 20px;
+        }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 350px) {
+    .modal-content p {
+            width: 320px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .modal-content button {
+            top: 20px;
+            right: 0px;
+            font-size: 20px;
+        }
+}

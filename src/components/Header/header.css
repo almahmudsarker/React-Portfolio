@@ -185,12 +185,20 @@
     .nav__toggle {
         display: block;
     }
+
+    .nav .nav__logo2 {
+        margin-left: 50px;
+    }
 }
 
 /* Mobile devices */
 @media screen and (max-width: 350px) {
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
+    }
+
+    .nav .nav__logo2{
+        margin-left: 50px;
     }
 
     .nav__list {
