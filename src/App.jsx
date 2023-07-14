@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Projects from './components/Projects/Projects'
+import Qualification from './components/Qualification/Qualification'
 import ScrollUp from './components/ScrollUp/ScrollUp'
 import Skills from './components/skills/Skills'
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Qualification />
         <Contact />
       </main>
         <Footer />
