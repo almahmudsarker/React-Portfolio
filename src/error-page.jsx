@@ -7,12 +7,15 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
-      <h1>Oops!</h1>
+      <h5 className="animate-link err-code">404</h5>
+      <h1 className="animate-link">Oops!</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p className="err-text">
         <i>{error.statusText || error.message}</i>
       </p>
-      <Link to='/'>
+      <img className="err-img" src="/src/assets/john-travolta-lost.gif" />
+      <br />
+      <Link to="/">
         <button className="err-btn">Go Back</button>
       </Link>
     </div>

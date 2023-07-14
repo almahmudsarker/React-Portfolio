@@ -12,6 +12,7 @@
     animation: fadeIn 0.5s ease-in;
     text-align: center;
     margin-top: 10%;
+    box-shadow: inset 0px 0px 0px 1000px rgba(255, 255, 255, 0.326);
 }
 
 #error-page h1 {
@@ -27,8 +28,8 @@
 }
 
 .err-btn {
-    background-color: #000;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -36,4 +37,20 @@
     font-weight: 300;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.err-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.err-code {
+    font-size: 200px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
