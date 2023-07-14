@@ -13,7 +13,10 @@ export default function ErrorPage() {
       <p className="err-text">
         <i>{error.statusText || error.message}</i>
       </p>
-      <img className="err-img" src="/src/assets/john-travolta-lost.gif" />
+      <img
+        className="err-img"
+        src="https://i.ibb.co/518HZGk/john-travolta-lost.gif"
+      />
       <br />
       <Link to="/">
         <button className="err-btn">Go Back</button>
