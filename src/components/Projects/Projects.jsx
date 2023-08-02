@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Taste & Learn - Culinary School",
+      title: "Culinary School - education platform",
       description:
         "Welcome to Taste & Learn Culinary School! We are dedicated to providing a comprehensive culinary education and igniting a passion for cooking. Our mission is to empower aspiring chefs with the skills, knowledge, and cultural understanding necessary to excel in the world of gastronomy.",
       features: [
@@ -32,7 +32,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Cuisine Chronicles",
+      title: "Cuisine Chronicles - e commerce restaurant",
       description:
         "Cuisine Chronicles is a website dedicated to showcasing the recipes of various chefs from around the world. Each section of the website is exclusively dedicated to one cuisine, featuring recipes from top chefs of that particular cuisine.",
       features: [
@@ -53,7 +53,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "MixxStore",
+      title: "MixxStore - e commerce baby sports shop",
       description:
         "MixxStore is a React-based project that serves as an online shop specializing in sports toys. This README file provides an overview of the project's features and includes the live site link and license information.",
       features: [
