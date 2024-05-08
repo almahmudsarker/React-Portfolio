@@ -5,9 +5,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Through Travels - A Travel Website",
+      title: "Through Travels",
       description:
-        "Welcome to Through Travels, an exciting travel website that allows users to explore and book their dream vacations. This repository contains the codebase for the Through Travels React application, along with its backend built using Express and Node.js. The website integrates various technologies to offer a seamless travel booking experience, including payment gateways like Stripe, bKash, and Nagad.",
+        "Travel website that allows users to explore and book their dream vacations. Along with its backend built using Express and Node.js. The website integrates various technologies to offer a seamless travel booking experience, including payment gateways like Stripe.",
       features: [
         "Interactive Destination Exploration",
         "Multiple Payment Options",
@@ -38,7 +38,25 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Culinary School - education platform",
+      title: "Glamour Haven",
+      description:
+        "The Glamour Haven Parlour Website is a modern web application that offers a range of beauty and wellness services to users. It also provides an online store for purchasing beauty products. This project is built using various technologies and integrated with popular payment gateways like bKash.",
+      features: [
+        "Treatment Services",
+        "Product Purchase",
+        "Payment Gateway Integration",
+        "Database",
+        "Authentication",
+        "Responsive Design",
+      ],
+      liveLink: "https://purlour-app.web.app",
+      snapshots: [
+        "https://camo.githubusercontent.com/6fae59751f715b2fb15abf234b80654732cb4f6998f627a552eb621cc148fdb9/68747470733a2f2f692e6962622e636f2f574739594e71312f696d6167652d323032332d31302d33312d3230313233323939332e706e67",
+      ],
+    },
+    {
+      id: 3,
+      title: "Culinary School",
       description:
         "Welcome to Taste & Learn Culinary School! We are dedicated to providing a comprehensive culinary education and igniting a passion for cooking. Our mission is to empower aspiring chefs with the skills, knowledge, and cultural understanding necessary to excel in the world of gastronomy.",
       features: [
@@ -64,8 +82,37 @@ const Projects = () => {
       ],
     },
     {
-      id: 3,
-      title: "Cuisine Chronicles - e commerce restaurant",
+      id: 4,
+      title: "Baiust Computer Club",
+      description:
+        "The Baiust Computer Club app is a platform for students to learn about computer science and programming. The app provides a range of resources, including tutorials, quizzes, and coding challenges, to help students develop their skills and knowledge in the field of computer science.",
+      features: [
+        "Login and registration for members and admins",
+        "Dashboard for members to view club activities",
+        "Membership management system",
+        "Integration with BAIUST website for event updates",
+      ],
+      liveLink:
+        "https://github.com/almahmudsarker/Baiust-Computer-Club-Desktop-App",
+      snapshots: [
+        "https://camo.githubusercontent.com/2581ffe6fd10ae01fe0b344764dd752d3d074011d395461812f5f144f5044e97/68747470733a2f2f692e6962622e636f2f6235707170435a2f30302e6a7067",
+        "https://camo.githubusercontent.com/aebd38bf783192f3400896646322da01c962fa6839cb66fcb729176654c603a7/68747470733a2f2f692e6962622e636f2f3072684a3067572f312e6a7067",
+        "https://camo.githubusercontent.com/17a7bd072b3d9be0a248cf010431994648491304f191819f42e28cb71255ce3a/68747470733a2f2f692e6962622e636f2f48483542364b732f322e6a7067",
+        "https://camo.githubusercontent.com/faec34be7aeb6a963b8d40bbb2ed3ab62b8d6423f30ba9cf862f7f45ed4e0203/68747470733a2f2f692e6962622e636f2f70774e433843582f332e6a7067",
+        "https://camo.githubusercontent.com/77303d3681e8a91ce3f3b7542fb9f249021f36359bb92ba466c3bd2a654030b9/68747470733a2f2f692e6962622e636f2f5a6474664350772f342e6a7067",
+        "https://camo.githubusercontent.com/a1b51a285213e51064ef9cf9eb0dd0259c959270bbceaaa6dda8c8b8be7f1a9a/68747470733a2f2f692e6962622e636f2f474847584a794e2f352e6a7067",
+        "https://camo.githubusercontent.com/5224ab0ae5182c7759a049e84d9873504e4e7c47036e0313c8ddcfcee0bc3645/68747470733a2f2f692e6962622e636f2f48584d4a7630632f362e6a7067",
+        "https://camo.githubusercontent.com/e80b03ac15bdc2f9321412efbc3c15da86590aa57f18bb162ffc59f397331c42/68747470733a2f2f692e6962622e636f2f7734426634326b2f372e6a7067",
+        "https://camo.githubusercontent.com/3f70dae3f32d6c09bde0070c881d40a1616a972b9b543c7f8c4edbf4c116bcde/68747470733a2f2f692e6962622e636f2f70514e6e4763432f696d6167652e6a7067",
+        "https://camo.githubusercontent.com/f19c4b5a01a299733933b5f37bf67b2282d11302367d79ff5877f66da6510b9b/68747470733a2f2f692e6962622e636f2f6e38304246524b2f30312e6a7067",
+        "https://camo.githubusercontent.com/775dd091cfc36fae4f646e442815e388354e91f52dbac9c9b3f6cf003e010c39/68747470733a2f2f692e6962622e636f2f686658743850332f30322e6a7067",
+        "https://camo.githubusercontent.com/31ccd7b7e8b5430659b5487e83d290591484a025b182249ffaa250efb571736d/68747470733a2f2f692e6962622e636f2f79584d636e79772f30332e6a7067",
+        "https://camo.githubusercontent.com/81043e3737df5189a069829b42db0a3e55fb6575345bb2fc2fc614f8cbbcbe66/68747470733a2f2f692e6962622e636f2f4c5a71333953632f30342e6a7067",
+      ],
+    },
+    {
+      id: 5,
+      title: "Cuisine Chronicles",
       description:
         "Cuisine Chronicles is a website dedicated to showcasing the recipes of various chefs from around the world. Each section of the website is exclusively dedicated to one cuisine, featuring recipes from top chefs of that particular cuisine.",
       features: [
@@ -85,8 +132,8 @@ const Projects = () => {
       ],
     },
     {
-      id: 4,
-      title: "MixxStore - e commerce baby sports shop",
+      id: 6,
+      title: "MixxStore",
       description:
         "MixxStore is a React-based project that serves as an online shop specializing in sports toys. This README file provides an overview of the project's features and includes the live site link and license information.",
       features: [
@@ -105,6 +152,38 @@ const Projects = () => {
         "https://i.ibb.co/Hp4kfHP/7.jpg",
         "https://i.ibb.co/Vv99P5j/8.jpg",
         "https://i.ibb.co/MST003t/9.jpg",
+      ],
+    },
+    {
+      id: 7,
+      title: "Pet Paradise BD",
+      description:
+        "'Pet Paradise BD' is a startup founded by Rahat Amin Shopnil, focusing on providing premium cat foods and accessories to create the ultimate haven for feline friends. This repository contains the source code and assets for the official website.",
+      features: [
+        "Product Catalog",
+        "Browse and search",
+        "Shopping Cart",
+        "Product Reviews",
+      ],
+      liveLink: "https://pet-paradise-bd.vercel.app",
+      snapshots: [
+        // "https://i.ibb.co/F61wyX5/1.jpg",
+      ],
+    },
+    {
+      id: 8,
+      title: "Cinema Rentals",
+      description:
+        "All film and delivery charges for rentals will be the responsibility of the renter. We will most certainly do our best to accommodate any and all of your needs.",
+      features: [
+        "Product Catalog",
+        "Browse and search",
+        "Shopping Cart",
+        "Product Reviews",
+      ],
+      liveLink: "https://cinema-rentals.vercel.app",
+      snapshots: [
+        // "https://i.ibb.co/F61wyX5/1.jpg",
       ],
     },
     // Add more projects here if needed

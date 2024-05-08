@@ -1,21 +1,19 @@
-import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 import "./Contact.css";
 const Contact = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_cxxw2kf",
-        "template_mqlspvk",
-        form.current,
-        "3hCvHi6zoKDmGvlxs"
-      )
-      e.target.reset();
+    emailjs.sendForm(
+      "service_cxxw2kf",
+      "template_mqlspvk",
+      form.current,
+      "3hCvHi6zoKDmGvlxs"
+    );
+    e.target.reset();
   };
 
   return (
@@ -40,9 +38,7 @@ const Contact = () => {
             <div className="contact__card animate-link">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">
-                almahmudsarker@baiust.edu.bd
-              </span>
+              <span className="contact__card-data">almahmuds427@gmail.com</span>
               <a
                 href="mailto:almahmuds427@gmail.com"
                 className="contact__button"
