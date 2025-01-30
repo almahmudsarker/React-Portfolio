@@ -51,7 +51,118 @@ const Projects = () => {
       ],
       liveLink: "https://purlour-app.web.app",
       snapshots: [
-        "https://camo.githubusercontent.com/6fae59751f715b2fb15abf234b80654732cb4f6998f627a552eb621cc148fdb9/68747470733a2f2f692e6962622e636f2f574739594e71312f696d6167652d323032332d31302d33312d3230313233323939332e706e67",
+        "https://i.ibb.co/vxcnkZX4/screencapture-purlour-app-web-app-2025-01-29-23-16-29.png",
+        "https://i.ibb.co/CsmFw4S6/screencapture-purlour-app-web-app-dashboard-manage-service-2025-01-29-23-18-20.png",
+        "https://i.ibb.co/ks7Fmc8M/screencapture-purlour-app-web-app-dashboard-order-list-2025-01-29-23-17-33.png",
+        "https://i.ibb.co/BVrZ4NTH/screencapture-purlour-app-web-app-dashboard-profile-2025-01-29-23-17-17.png",
+        "https://i.ibb.co/prrtFg9S/screencapture-purlour-app-web-app-dashboard-payment-6536e006f7c32f9604950a43-2025-01-29-23-26-25.png",
+      ],
+    },
+
+    {
+      id: 4,
+      title: "Baiust Computer Club",
+      description:
+        "The Baiust Computer Club app is a platform for students to learn about computer science and programming. The app provides a range of resources, including tutorials, quizzes, and coding challenges, to help students develop their skills and knowledge in the field of computer science.",
+      features: [
+        "Login and registration for members and admins",
+        "Dashboard for members to view club activities",
+        "Membership management system",
+        "Integration with BAIUST website for event updates",
+      ],
+      liveLink:
+        "https://github.com/almahmudsarker/Baiust-Computer-Club-Desktop-App",
+      snapshots: [
+        "https://i.ibb.co/b5pqpCZ/00.jpg",
+        "https://i.ibb.co/0rhJ0gW/1.jpg",
+        "https://i.ibb.co/HH5B6Ks/2.jpg",
+        "https://i.ibb.co/pwNC8CX/3.jpg",
+        "https://i.ibb.co/ZdtfCPw/4.jpg",
+        "https://i.ibb.co/GHGXJyN/5.jpg",
+        "https://i.ibb.co/HXMJv0c/6.jpg",
+        "https://i.ibb.co/w4Bf42k/7.jpg",
+        "https://i.ibb.co/pQNnGcC/image.jpg",
+        "https://i.ibb.co/n80BFRK/01.jpg",
+        "https://i.ibb.co/hfXt8P3/02.jpg",
+        "https://i.ibb.co/yXMcnyw/03.jpg",
+        "https://i.ibb.co/LZq39Sc/04.jpg",
+      ],
+    },
+    {
+      id: 7,
+      title: "AWS Cloud Wish List",
+      description:
+        "Welcome to the Wish Tracker Cloud App, a serverless, scalable, and user-friendly application that lets users track and manage their bucket list items. This project was built using modern AWS cloud services and React, leveraging the power of serverless architecture for optimized performance and minimal management overhead.",
+      features: [
+        "Data Management with DynamoDB",
+        "User Authentication",
+        "GraphQL API with AWS AppSync",
+        "Image Storage in S3",
+        "AWS Amplify Hosting",
+      ],
+      liveLink: "https://github.com/almahmudsarker/wishTrackerCloudApp",
+      snapshots: [
+        "https://i.ibb.co/jPr9Kmx8/p-5-1.png",
+        "https://i.ibb.co/8gGDgFF5/p-5-2.png",
+        "https://i.ibb.co/Y4KmGFkt/p-5-3.png",
+        "https://i.ibb.co/ycc5CHmM/p-5-4.png",
+        "https://i.ibb.co/7d281ssk/p-5-5.png",
+      ],
+    },
+
+    // {
+    //   id: 6,
+    //   title: "MixxStore",
+    //   description:
+    //     "MixxStore is a React-based project that serves as an online shop specializing in sports toys. This README file provides an overview of the project's features and includes the live site link and license information.",
+    //   features: [
+    //     "Product Catalog",
+    //     "Browse and search",
+    //     "Shopping Cart",
+    //     "Product Reviews",
+    //   ],
+    //   liveLink: "https://mixxstore-4a428.web.app",
+    //   snapshots: [
+    //     "https://i.ibb.co/F61wyX5/1.jpg",
+    //     "https://i.ibb.co/Pmx5QRn/2.jpg",
+    //     "https://i.ibb.co/0h2tVtm/3.jpg",
+    //     "https://i.ibb.co/W3yBGxg/4.jpg",
+    //     "https://i.ibb.co/zsCpS4L/5.jpg",
+    //     "https://i.ibb.co/Hp4kfHP/7.jpg",
+    //     "https://i.ibb.co/Vv99P5j/8.jpg",
+    //     "https://i.ibb.co/MST003t/9.jpg",
+    //   ],
+    // },
+    {
+      id: 8,
+      title: "Pet Paradise BD",
+      description:
+        "'Pet Paradise BD' is a startup founded by Rahat Amin Shopnil, focusing on providing premium cat foods and accessories to create the ultimate haven for feline friends. This repository contains the source code and assets for the official website.",
+      features: [
+        "Product Catalog",
+        "Browse and search",
+        "Shopping Cart",
+        "Product Reviews",
+      ],
+      liveLink: "https://pet-paradise-bd.vercel.app",
+      snapshots: [
+        "https://i.ibb.co/zhX87Fdv/screencapture-pet-paradise-bd-vercel-app-2025-01-29-23-04-56.png",
+      ],
+    },
+    {
+      id: 9,
+      title: "Cinema Rentals",
+      description:
+        "All film and delivery charges for rentals will be the responsibility of the renter. We will most certainly do our best to accommodate any and all of your needs.",
+      features: [
+        "Product Catalog",
+        "Browse and search",
+        "Shopping Cart",
+        "Product Reviews",
+      ],
+      liveLink: "https://cinema-rentals.vercel.app",
+      snapshots: [
+        "https://i.ibb.co/Q3Bs7Bbs/screencapture-cinema-rentals-vercel-app-2025-01-29-23-09-43.png",
       ],
     },
     {
@@ -82,35 +193,6 @@ const Projects = () => {
       ],
     },
     {
-      id: 4,
-      title: "Baiust Computer Club",
-      description:
-        "The Baiust Computer Club app is a platform for students to learn about computer science and programming. The app provides a range of resources, including tutorials, quizzes, and coding challenges, to help students develop their skills and knowledge in the field of computer science.",
-      features: [
-        "Login and registration for members and admins",
-        "Dashboard for members to view club activities",
-        "Membership management system",
-        "Integration with BAIUST website for event updates",
-      ],
-      liveLink:
-        "https://github.com/almahmudsarker/Baiust-Computer-Club-Desktop-App",
-      snapshots: [
-        "https://camo.githubusercontent.com/2581ffe6fd10ae01fe0b344764dd752d3d074011d395461812f5f144f5044e97/68747470733a2f2f692e6962622e636f2f6235707170435a2f30302e6a7067",
-        "https://camo.githubusercontent.com/aebd38bf783192f3400896646322da01c962fa6839cb66fcb729176654c603a7/68747470733a2f2f692e6962622e636f2f3072684a3067572f312e6a7067",
-        "https://camo.githubusercontent.com/17a7bd072b3d9be0a248cf010431994648491304f191819f42e28cb71255ce3a/68747470733a2f2f692e6962622e636f2f48483542364b732f322e6a7067",
-        "https://camo.githubusercontent.com/faec34be7aeb6a963b8d40bbb2ed3ab62b8d6423f30ba9cf862f7f45ed4e0203/68747470733a2f2f692e6962622e636f2f70774e433843582f332e6a7067",
-        "https://camo.githubusercontent.com/77303d3681e8a91ce3f3b7542fb9f249021f36359bb92ba466c3bd2a654030b9/68747470733a2f2f692e6962622e636f2f5a6474664350772f342e6a7067",
-        "https://camo.githubusercontent.com/a1b51a285213e51064ef9cf9eb0dd0259c959270bbceaaa6dda8c8b8be7f1a9a/68747470733a2f2f692e6962622e636f2f474847584a794e2f352e6a7067",
-        "https://camo.githubusercontent.com/5224ab0ae5182c7759a049e84d9873504e4e7c47036e0313c8ddcfcee0bc3645/68747470733a2f2f692e6962622e636f2f48584d4a7630632f362e6a7067",
-        "https://camo.githubusercontent.com/e80b03ac15bdc2f9321412efbc3c15da86590aa57f18bb162ffc59f397331c42/68747470733a2f2f692e6962622e636f2f7734426634326b2f372e6a7067",
-        "https://camo.githubusercontent.com/3f70dae3f32d6c09bde0070c881d40a1616a972b9b543c7f8c4edbf4c116bcde/68747470733a2f2f692e6962622e636f2f70514e6e4763432f696d6167652e6a7067",
-        "https://camo.githubusercontent.com/f19c4b5a01a299733933b5f37bf67b2282d11302367d79ff5877f66da6510b9b/68747470733a2f2f692e6962622e636f2f6e38304246524b2f30312e6a7067",
-        "https://camo.githubusercontent.com/775dd091cfc36fae4f646e442815e388354e91f52dbac9c9b3f6cf003e010c39/68747470733a2f2f692e6962622e636f2f686658743850332f30322e6a7067",
-        "https://camo.githubusercontent.com/31ccd7b7e8b5430659b5487e83d290591484a025b182249ffaa250efb571736d/68747470733a2f2f692e6962622e636f2f79584d636e79772f30332e6a7067",
-        "https://camo.githubusercontent.com/81043e3737df5189a069829b42db0a3e55fb6575345bb2fc2fc614f8cbbcbe66/68747470733a2f2f692e6962622e636f2f4c5a71333953632f30342e6a7067",
-      ],
-    },
-    {
       id: 5,
       title: "Cuisine Chronicles",
       description:
@@ -129,61 +211,6 @@ const Projects = () => {
         "https://i.ibb.co/Rvbf3RS/4.jpg",
         "https://i.ibb.co/4SDWm5k/5.jpg",
         "https://i.ibb.co/0scDCvB/6.jpg",
-      ],
-    },
-    {
-      id: 6,
-      title: "MixxStore",
-      description:
-        "MixxStore is a React-based project that serves as an online shop specializing in sports toys. This README file provides an overview of the project's features and includes the live site link and license information.",
-      features: [
-        "Product Catalog",
-        "Browse and search",
-        "Shopping Cart",
-        "Product Reviews",
-      ],
-      liveLink: "https://mixxstore-4a428.web.app",
-      snapshots: [
-        "https://i.ibb.co/F61wyX5/1.jpg",
-        "https://i.ibb.co/Pmx5QRn/2.jpg",
-        "https://i.ibb.co/0h2tVtm/3.jpg",
-        "https://i.ibb.co/W3yBGxg/4.jpg",
-        "https://i.ibb.co/zsCpS4L/5.jpg",
-        "https://i.ibb.co/Hp4kfHP/7.jpg",
-        "https://i.ibb.co/Vv99P5j/8.jpg",
-        "https://i.ibb.co/MST003t/9.jpg",
-      ],
-    },
-    {
-      id: 7,
-      title: "Pet Paradise BD",
-      description:
-        "'Pet Paradise BD' is a startup founded by Rahat Amin Shopnil, focusing on providing premium cat foods and accessories to create the ultimate haven for feline friends. This repository contains the source code and assets for the official website.",
-      features: [
-        "Product Catalog",
-        "Browse and search",
-        "Shopping Cart",
-        "Product Reviews",
-      ],
-      liveLink: "https://pet-paradise-bd.vercel.app",
-      snapshots: [
-        // "https://i.ibb.co/F61wyX5/1.jpg",
-      ],
-    },
-    {
-      id: 8,
-      title: "Cinema Rentals",
-      description:
-        "All film and delivery charges for rentals will be the responsibility of the renter. We will most certainly do our best to accommodate any and all of your needs.",
-      features: [
-        "Product Catalog",
-        "Browse and search",
-        "Shopping Cart",
-        "Product Reviews",
-      ],
-      liveLink: "https://cinema-rentals.vercel.app",
-      snapshots: [
-        // "https://i.ibb.co/F61wyX5/1.jpg",
       ],
     },
     // Add more projects here if needed

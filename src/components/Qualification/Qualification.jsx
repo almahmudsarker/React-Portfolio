@@ -27,6 +27,7 @@ const Qualification = () => {
 
       <div className="qualification__container container animate-link">
         <div className="qualification__tabs">
+          {/* toggle 1 */}
           <div
             className={
               toggleState === 1
@@ -38,7 +39,7 @@ const Qualification = () => {
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
-
+          {/* toggle 2 */}
           <div
             className={
               toggleState === 2
@@ -50,9 +51,22 @@ const Qualification = () => {
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
           </div>
+          {/* toggle 3 */}
+          <div
+            className={
+              toggleState === 3
+                ? "qualification__button button--flex qualification__active"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(3)}
+          >
+            <i className="uil uil-brain qualification__icon"></i>
+            Research Work
+          </div>
         </div>
 
         <div className="qualification__sections">
+          {/* Education */}
           <div
             className={
               toggleState === 1
@@ -68,11 +82,11 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">
                   Bangladesh Army International University of Science &
-                  Technology - Comilla Cantonment, Comilla
+                  Technology - Cumilla Cantonment, Cumilla
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2020 - 2024
-                  <i> # </i> CGPA: 3.28 / 4.00
+                  <i> # </i> CGPA: 3.30 / 4.00
                 </div>
               </div>
 
@@ -92,7 +106,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Higher Secondary Certificate
+                  Higher Secondary Certificate - Science
                 </h3>
                 <span className="qualification__subtitle">
                   Milestone College - Uttara, Dhaka
@@ -125,7 +139,7 @@ const Qualification = () => {
               </div>
             </div>
           </div>
-
+          {/* Work */}
           <div
             className={
               toggleState === 2
@@ -226,6 +240,57 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2022 - present
                 </div>
+              </div>
+            </div>
+            {/*  */}
+          </div>
+          {/* Research */}
+          <div
+            className={
+              toggleState === 3
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
+            {/* Journal */}
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Journal</h3>
+                <span className="qualification__subtitle">
+                  Leveraging A Stacking Ensemble Model for Accurate Depression
+                  Prediction and Diagnosis Across All Ages
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> in proceedings of the
+                  IET Software (Q2, IF:1.6), Science Citation Index Expanded
+                  (Clarivate Analytics), Scopus & SCImago Indexed. Under Review
+                </div>
+              </div>
+            </div>
+            {/* Conference */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Conference</h3>
+                <span className="qualification__subtitle">
+                  Short-Term Rainfall Forecasting in Bangladesh Using LSTM,
+                  ARIMA, and LSTM Time Series Generator Models
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> in proceedings of the
+                  3rd International Conference on Intelligent Data Communication
+                  Technologies and Internet of Things (IDCIoT 2025), IEEE Xplore
+                  & Scopus Indexed. Accepted
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
             {/*  */}

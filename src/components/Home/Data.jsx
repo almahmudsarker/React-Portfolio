@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../assets/Al Mahmud Sarker CV.pdf";
+import Resume from "../../assets/AL MAHMUD SARKER CURRICULAM VITAE.pdf";
 const Data = () => {
   return (
     <div className="home__data">
@@ -9,13 +9,22 @@ const Data = () => {
         {/* A passionate Full stack developer with a knack for creating robust and
         innovative web applications. I thrive in crafting seamless user
         experiences and building scalable solutions. */}
-        Dedicated and innovative software engineer with experience in developing
+        {/* Dedicated and innovative software engineer with experience in developing
         high-quality web applications. Proficient in the MERN stack, with strong
         skills in JavaScript, Java, C++, and SQL. Demonstrated history of
         successful project completion and problem-solving abilities. Adept at
         working in fast-paced environments, both independently and as part of a
         team. Eager to bring technical skills and a collaborative spirit to a
-        dynamic software development team.
+        dynamic software development team. */}
+        Driven and innovative software engineer with a strong academic
+        background in Computer Science and Engineering, specializing in scalable
+        web applications and cloud-based technologies. Proficient in the MERN
+        stack, AWS, and advanced software development tools. Experienced in
+        solving complex challenges through collaborative teamwork and
+        self-initiative, with a proven track record in research on AI-driven
+        prediction models and time-series forecasting. Passionate about
+        advancing knowledge in software engineering and cloud computing while
+        contributing to impactful technological innovations.
       </p>
 
       <a download="" href={Resume} className="button button--flex">
