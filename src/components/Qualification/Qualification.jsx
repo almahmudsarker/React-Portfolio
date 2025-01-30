@@ -147,6 +147,26 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
+            {/* ZenithhBD */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Zenitth Business Development
+                </h3>
+                <span className="qualification__subtitle">
+                  Software Engineer Intern - Cumilla, Bangladesh
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> March 2024 - June
+                  2024
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
             {/* persist */}
             <div className="qualification__data">
               <div></div>
@@ -160,7 +180,8 @@ const Qualification = () => {
                   Software Developer Intern - Los Angeles, USA
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Nov 2023 - April 2024
+                  <i className="uil uil-calendar-alt"></i> November 2023 - April
+                  2024
                 </div>
               </div>
             </div>
@@ -238,7 +259,7 @@ const Qualification = () => {
                   Student Advisor - CSE Department Baiust
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
             </div>
