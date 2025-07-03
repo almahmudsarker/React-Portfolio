@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import AboutImg from "../../assets/about.jpg";
 import "./About.css";
 import Info from "./Info";
@@ -24,9 +24,64 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description animate-charcter2">
-            {showFullDescription
-              ? "With a strong foundation in JavaScript, along with expertise in React.js, Node.js, and Express.js, I thrive in crafting seamless user experiences and building scalable solutions. Whether it's developing dynamic front-end interfaces or architecting efficient back-end systems, I combine my technical prowess with a keen eye for design to deliver engaging web solutions. My dedication to clean code, best practices, and continuous learning enables me to stay up-to-date with the latest technologies and industry trends.I love collaborating with teams to transform ideas into reality and solve complex problems. By leveraging my excellent problem-solving skills and attention to detail, I consistently deliver high-quality projects on time. Let's connect and discuss how I can contribute to your next development venture. Click the button below to explore my work and get in touch!"
-              : "With a strong foundation in JavaScript, along with expertise in React.js, Node.js, and Express.js, I thrive in crafting seamless user experiences and building scalable solutions. Whether it's developing dynamic front-end interfaces or architecting efficient back-end systems, I combine my technical prowess with a keen eye for design to deliver engaging web solutions."}
+            {showFullDescription ? (
+              <>
+                For me, software development isn’t just about code — it’s a
+                craft, a canvas, and a commitment to clarity in chaos.
+                <br />
+                <br />
+                Every line I write is an attempt to bring logic to the abstract,
+                beauty to function, and empathy to user experience.
+                <br />
+                <br />
+                With a solid command of JavaScript and modern frameworks like
+                React.js, Node.js, and Express.js, I don’t just build websites —
+                I engineer scalable, intuitive ecosystems where users feel seen,
+                and businesses grow seamlessly.
+                <br />
+                <br />
+                Whether architecting a robust backend or designing a
+                frictionless front-end, I approach each project with precision
+                and care — like a composer writing music that must work, move,
+                and endure.
+                <br />
+                <br />
+                I thrive in collaborative environments, where brainstorming
+                transforms into breakthroughs, and where every bug is an
+                opportunity to learn something deeper.
+                <br />
+                <br />
+                Clean code, human-centric design, and forward-thinking tech are
+                my pillars — but it’s my belief in development as emotion that
+                sets me apart.
+                <br />
+                <br />
+                I see every problem as a story waiting to be told in logic, and
+                I write that story with tools, curiosity, and respect for
+                detail.
+                <br />
+                <br />
+                If you’re looking for someone who doesn't just{" "}
+                <code>develop</code> but cares, builds with intention, and
+                treats your vision as their own — let’s create something
+                meaningful together.
+              </>
+            ) : (
+              <>
+                For me, software development isn’t just about code — it’s a
+                craft, a canvas, and a commitment to clarity in chaos.
+                <br />
+                <br />
+                Every line I write is an attempt to bring logic to the abstract,
+                beauty to function, and empathy to user experience.
+                <br />
+                <br />
+                With a solid command of JavaScript and modern frameworks like
+                React.js, Node.js, and Express.js, I don’t just build websites —
+                I engineer scalable, intuitive ecosystems where users feel seen,
+                and businesses grow seamlessly.
+              </>
+            )}
             {!showFullDescription && (
               <p
                 style={{ fontWeight: "bold", cursor: "pointer" }}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Qualification.css";
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(2);
@@ -74,15 +74,38 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
+            {/* University Porto */}
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Master of Science - Software Engineering
+                </h3>
+                <span className="qualification__subtitle">
+                  Faculty of Engineering of the University of Porto, Porto,
+                  Portugal
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2025 - Present
+                  {/* <i> # </i> GPA: - / 4.00 */}
+                </div>
+              </div>
+            </div>
             {/* university */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  B.Sc - Computer Science & Engineering
+                  Bachelor of Science - Computer Science & Engineering
                 </h3>
                 <span className="qualification__subtitle">
                   Bangladesh Army International University of Science &
-                  Technology - Cumilla Cantonment, Cumilla
+                  Technology - Cumilla Cantonment, Cumilla, Bangladesh
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2020 - 2024
@@ -109,7 +132,7 @@ const Qualification = () => {
                   Higher Secondary Certificate - Science
                 </h3>
                 <span className="qualification__subtitle">
-                  Milestone College - Uttara, Dhaka
+                  Milestone College - Uttara, Dhaka, Bangladesh
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2017 - 2019
@@ -125,7 +148,7 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">
                   Ashuganj Tap Bidyut Kendra High School - Ashuganj,
-                  Brahmanbaria
+                  Brahmanbaria, Bangladesh
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2006 - 2017

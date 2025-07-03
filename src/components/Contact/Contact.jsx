@@ -1,5 +1,5 @@
 import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./Contact.css";
 const Contact = () => {
   const form = useRef();
@@ -51,9 +51,9 @@ const Contact = () => {
             <div className="contact__card animate-link">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+8801312363823</span>
+              <span className="contact__card-data">+351-927727202</span>
               <a
-                href="https://api.whatsapp.com/send?phone=8801312363823&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=351927727202&text=Hello, more information!"
                 className="contact__button"
               >
                 Write me{" "}
