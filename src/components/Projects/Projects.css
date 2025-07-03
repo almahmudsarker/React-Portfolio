@@ -16,29 +16,18 @@
 
 .project-card:hover {
     background-image: linear-gradient(-225deg,
-                #2e2e2e 0%,
-                #17032c 29%,
-                #80032d 67%,
-                #2e2e2e 100%);
-        background-size: auto auto;
-        background-clip: border-box;
-        background-size: 200% auto;
-        background-clip: text;
-        text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textclip 5s linear infinite;
-}
-
-.project-card button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #1c1c1c;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
+            #2e2e2e 0%,
+            #17032c 29%,
+            #80032d 67%,
+            #2e2e2e 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
 }
 
 .modal {
@@ -115,7 +104,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.4s;
-    margin-left: 16%; 
+    margin-left: 16%;
 }
 
 .snapshot-gallery img:hover {
@@ -135,29 +124,96 @@
 /* Breakpoints */
 
 @media screen and (max-width: 768px) {
-        .modal-content p {
-            width: 320px;
-            text-align: center;
-        }
-    
-        .modal-content button {
-            top: 140px;
-            right: 0px;
-            font-size: 20px;
-        }
+    .modal-content p {
+        width: 320px;
+        text-align: center;
+    }
+
+    .modal-content button {
+        top: 140px;
+        right: 0px;
+        font-size: 20px;
+    }
 }
 
 /* Mobile devices */
 @media screen and (max-width: 350px) {
     .modal-content p {
-            width: 320px;
-            text-align: center;
-            margin: 0;
-        }
+        width: 320px;
+        text-align: center;
+        margin: 0;
+    }
 
-        .modal-content button {
-            top: 20px;
-            right: 0px;
-            font-size: 20px;
-        }
+    .modal-content button {
+        top: 20px;
+        right: 0px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/* project card modifying */
+.project-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #89064e45;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    overflow: hidden;
+    height: 200px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.project-card:hover .image-container img {
+    transform: scale(1.05);
+}
+
+.project-content {
+    padding: 16px;
+}
+
+.project-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.project-content p {
+    font-size: 0.95rem;
+    color: #4b5563;
+    margin-bottom: 16px;
+}
+
+.project-content button {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-content button:hover {
+    transform: scale(1.05);
 }

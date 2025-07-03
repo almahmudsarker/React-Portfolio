@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Projects.css";
 
 const Projects = () => {
@@ -242,9 +242,14 @@ const Projects = () => {
       <div className="projects-container">
         {projects.map((project) => (
           <div className="project-card" key={project.id}>
-            <h2>{project.title}</h2>
-            <p>{project.description}</p>
-            <button onClick={() => openModal(project)}>View Details</button>
+            <div className="image-container">
+              <img src={project.snapshots[0]} alt={project.title} />
+            </div>
+            <div className="project-content">
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+              <button onClick={() => openModal(project)}>View Details</button>
+            </div>
           </div>
         ))}
 
